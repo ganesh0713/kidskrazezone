@@ -1,0 +1,10 @@
+<?php
+/** @var $block \Magento\Framework\View\Element\Template */
+?>
+<?php
+$_product = $block->getProduct();
+?>
+<div class="custom-block" style="color:red;">
+    <!-- Your custom HTML content goes here -->
+    <p>Price on other website  <b><?php echo $_product->getCompetitorPrice(); ?></b></p>
+</div>
