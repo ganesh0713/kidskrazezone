@@ -1,0 +1,146 @@
+.top-promotion-wrapper {
+	display: none;
+}
+
+.action.primary{
+	background: #3a0045;
+    border: 1px solid #3a0045;
+}
+.action.primary:hover {
+    background: #54005d;
+    border: 1px solid #54005d;
+    color: #ffffff;
+}
+.action.primary:focus, .action.primary:active {
+    background: #54005d;
+    border: 1px solid #54005d;
+    color: #ffffff;
+}
+.promotion-one .item .text-content p > span,
+.section-title > span > i {
+	color: #3a0045;
+}
+
+.section-title > span:before{
+	background-image: linear-gradient(to right, #babdc2, #3a0045);
+}
+.section-title > span:after {
+    left: 100%;
+    background-image: linear-gradient(to right, #3a0045, #babdc2);
+    margin-left: 20px;
+}
+
+.scrollTop > span{
+	background: #3a0045;
+}
+
+.page-wrapper .page-footer .footer-wrapper.type1 .footer-columns .content-main .item .item-inner > .content .add-item .icon{
+	color: #3a0045;
+}
+
+.page-wrapper .page-footer .footer-wrapper.type1 .footer-columns .content-main .item .item-inner > .content .add-item .icon{
+	color: #3a0045;
+}
+
+.page-wrapper .page-footer .footer-wrapper.type1 .footer-bottom .content-main .left{
+	width: 70%;
+}
+.page-wrapper .page-footer .footer-wrapper.type1 .footer-bottom .content-main .right{
+	width: 30%;
+}
+a, .alink,
+.breadcrumbs a{
+	color: #3f0047;
+}
+.breadcrumbs a:active,
+.breadcrumbs a:hover,
+.breadcrumbs a:visited{
+	color: #54005d;
+}
+
+.catalog-category-view .toolbar.toolbar-products .modes .modes-mode.active{
+	border-color: #54005d;
+    background: #54005d;
+}
+
+.catalog-product-view .product-info-main .product-info-price .price-box .special-price .price-wrapper .price{
+	color: #3f0047;
+}
+
+.catalog-product-view .product-info-main .product-reviews-summary .reviews-actions .action.view:hover, .catalog-product-view .product-info-main .product-reviews-summary .reviews-actions .action.add:hover{
+	color: #54005d;
+}
+
+.page-wrapper .footer-text-content .logo-socials.align-center > p{
+	max-width: 100%;
+	line-height: 25px;
+}
+
+.minicart-items .product-item-name a{
+	color: #333333;
+}
+
+@media (min-width: 768px) {
+	.page-wrapper .page-header.type1 .panel.wrapper{
+		border-bottom: none;
+	}
+	/*.cms-index-index .page-wrapper .page-header.type1{
+		position: relative;
+	}*/
+	.header.content{
+		position: inherit;
+	}
+	.page-wrapper .page-header.type1 .header.content .header-logo{
+		position: absolute;
+		top: 10px;
+	}
+	.checkout-index-index .page-wrapper .page-header.type1 .header.content .header-logo{
+		position: inherit;
+		padding: 10px 0;
+	}
+	.page-wrapper .page-header.type1 .header.content .header-logo .logo > img{
+		width: 100px;
+	}
+	.page-wrapper .page-header.type1 .nav-sections,
+	.page-wrapper .page-header.type1 .nav-sections .navigation {
+		background: #3f0047;
+	}
+	.page-wrapper .page-header.type1 .nav-sections .navigation > ul li.level0:first-child > a.level-top{
+		padding-left: 20px;
+	}
+	.page-wrapper .page-header.type1 .nav-sections .navigation > ul li.level0.active > a.level-top,
+	.page-wrapper .page-header.type1 .nav-sections .navigation > ul li.level0 > a.level-top:hover{
+	    color: #fff;
+	    background: #3f0047;
+	}
+	.page-wrapper .page-header.type1 .header.content .header-contact-block .item .icon-block,
+	.page-wrapper .page-header.type1 .header.content .minicart-wrapper .action.showcart:before{
+		background: #3f0047;
+	}
+
+	.page-wrapper .page-header.type1 .panel.wrapper .panel.header .header.links > li > a:hover{
+		color: #3f0047;
+	}
+	.page-wrapper .page-header.type1 .header.content .header-contact-block .item:hover .icon-block,
+	.page-wrapper .page-header.type1 .header.content .minicart-wrapper .action.showcart:hover:before{
+		background: #54005d;	
+	}
+	.sidebar.sidebar-main .block .block-content.filter-content .filter-subtitle{
+		color: #3f0047;
+	}
+
+	.opc-progress-bar-item._active:before{
+		background: #3a0045;
+    	border-color: #3a0045;
+	}
+	.opc-progress-bar-item._active > span:before{
+		background: #3a0045;
+    	border-color: #3a0045;
+	}
+	.opc-progress-bar-item._active > span:after {
+		border-color: #3a0045;
+	}
+	.checkout-index-index .checkout-container .authentication-wrapper .action.action-auth-toggle{
+		background: #3a0045;
+	}
+}
