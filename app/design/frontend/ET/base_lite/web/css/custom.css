@@ -80,6 +80,20 @@ a, .alink,
 	color: #333333;
 }
 
+.products-grid .product-items .product-li .product-item-info.addto-in .product-item-details .product-item-inner .product-item-actions .actions-secondary > .action:hover{
+	background: #54005d;
+    border: 1px solid #54005d;
+}
+
+.catalog-category-view .toolbar.toolbar-products .modes .modes-mode:hover{
+	background: #54005d;
+    border-color: #54005d;
+}
+
+.catalog-product-view .product-info-main .product-social-links .action.towishlist:hover, .catalog-product-view .product-info-main .product-social-links .action.tocompare:hover, .catalog-product-view .product-info-main .product-social-links .action.mailto:hover{
+	color: #54005d;
+}
+
 @media (min-width: 768px) {
 	.page-wrapper .page-header.type1 .panel.wrapper{
 		border-bottom: none;
@@ -143,6 +157,13 @@ a, .alink,
 	.checkout-index-index .checkout-container .authentication-wrapper .action.action-auth-toggle{
 		background: #3a0045;
 	}
+	.page-wrapper .page-header.type1 .nav-sections .navigation > ul li.level0.active > a.level-top, .page-wrapper .page-header.type1 .nav-sections .navigation > ul li.level0 > a.level-top:hover{
+		background: #54005d;
+	}
+	.opc-progress-bar-item._complete > span,
+	.checkout-payment-method .payment-option-title .action-toggle{
+		color: #3a0045;
+	}
 }
 
 @media (max-width: 767px) {
@@ -194,10 +215,33 @@ a, .alink,
 	}
 
 	.checkout-index-index .opc-estimated-wrapper .minicart-wrapper button.action.showcart .counter.qty{
+		background: #710080;
+	}
+
+	.page-wrapper .page-header.type1 .nav-sections .nav-sections-item-title.active .nav-sections-item-switch:active, .page-wrapper .page-header.type1 .nav-sections .nav-sections-item-title.active .nav-sections-item-switch:focus, .page-wrapper .page-header.type1 .nav-sections .nav-sections-item-title.active .nav-sections-item-switch:visited, .page-wrapper .page-header.type1 .nav-sections .nav-sections-item-title.active .nav-sections-item-switch:hover{
+		color: #54005d;
+	}
+
+	.checkout-index-index .opc-estimated-wrapper .minicart-wrapper button.action.showcart:before{
 		background: #3a0045;
+	}
+
+	.page-wrapper .page-header.type1 .nav-sections .header.links > li > a:hover{
+		color: #54005d;
 	}
 }
 
 .checkout-index-index .checkout-container .authentication-wrapper .action.action-auth-toggle{
 	background: #3a0045;
+}
+
+a:visited, .alink:visited{
+	color: #54005d;
+}
+.block-collapsible-nav .item.current a, .block-collapsible-nav .item.current > strong{
+	color: #3a0045;
+}
+.account .page-wrapper .sidebar-main .block.block-collapsible-nav .content .nav.items .item.current > strong,
+.account .page-wrapper .sidebar-main .block.block-collapsible-nav .content .nav.items .item > a:hover{
+	color: #54005d;
 }
